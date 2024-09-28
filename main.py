@@ -25,7 +25,7 @@ async def update_item(item_id: int, item: Item, q: Optional[str] = None):
         "tax": item.tax
     }
     
-    if q:
+    if q :
         response["q"] = q 
     
     return response
